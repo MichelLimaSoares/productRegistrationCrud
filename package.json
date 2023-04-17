@@ -1,0 +1,22 @@
+{
+  "name": "productregistrationapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichelLimaSoares/productRegistrationApi.git"
+  },
+  "keywords": [
+    "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"
+  ],
+  "author": "Michel.Soares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichelLimaSoares/productRegistrationApi/issues"
+  },
+  "homepage": "https://github.com/MichelLimaSoares/productRegistrationApi#readme"
+}
