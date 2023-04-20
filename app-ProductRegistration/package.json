@@ -1,5 +1,5 @@
 {
-  "name": "app-ProductRegistrationApi",
+  "name": "app-product-registration-api",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
