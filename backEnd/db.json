@@ -3,24 +3,28 @@
     {
       "price": 1,
       "coin": "BRL",
+      "product": "Caneta",
       "conversion rate": 5.2544578721,
       "date / time": null
     },
     {      
       "price": 1,
       "coin": "USD",
+      "product": "Caneta",
       "conversion rate": 1.0,
       "date / time": null
     },
     {      
       "price": 1,
       "coin": "JPY",
+      "product": "Caneta",
       "conversion rate": 104.3606862165,
       "date / time": null
     },
     {      
       "price": 1,
       "coin": "EUR",
+      "product": "Caneta",
       "conversion rate": 0.845094228,
       "date / time": null
     }
@@ -34,7 +38,7 @@
     },
     {
       "id": 2,
-      "name": "lima"
+      "name": "leticia"
       
     },
     {
@@ -44,7 +48,7 @@
     },
     {
       "id": 4,
-      "name": "ferreira"
+      "name": "moura"
       
     }
   ]
