@@ -1,16 +1,40 @@
 .sidenav{
-    background-color: #3F51B5;
+    background-color: #2a367a;
     width: 190px;
 }
 
 .sidenav a{
     color: #FFF;
+    padding-left: 15px;
+    width: 190px;
+    text-align: justify;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    line-height: 1.4em;
+         
+         
+}
+.sidenav a:hover{
+    opacity: 0.6;
+    transform: scale(1.1);
 }
 
 .sidenav i{
-    padding-right: 10px;
+    padding-right: 2px;
+    border: 2px solid #efeeee; 
+    margin: auto;
+    display: inline-block;
+    height: auto;
+    line-height: 1.2em; 
+    vertical-align: sub;  
+    height: auto;
+    
 }
+
 .content {
-    padding: 16px;
+    padding: 20px;
     background-color: #FFF;
+    height: auto;
+    
 }

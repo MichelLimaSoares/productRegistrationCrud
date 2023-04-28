@@ -13,7 +13,8 @@ import { NavComponent } from './components/templates/nav/nav.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
-import { HomeComponent } from './views/home/home.component'
+import { HomeComponent } from './views/home/home.component';
+import { ProductListComponent } from './components/product-list/components/product-list/product-list.component'
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { HomeComponent } from './views/home/home.component'
     FooterComponent,
     NavComponent,
     HomeComponent,
+    ProductListComponent,
   ],
   imports: [
     BrowserModule,

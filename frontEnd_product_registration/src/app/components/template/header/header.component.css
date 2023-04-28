@@ -1,5 +1,4 @@
 .header{
-
     display: flex;
     align-items: center;
 }
@@ -11,13 +10,19 @@
 }
 
 .header .logo{
-    max-height: 32px;
+    max-height: 50px;
+    text-align: justify;
+    align-items: center;
+    padding-top: 5px;
+}
+.header .logo:hover{
+    opacity: 0.6;
 }
 
 .header .title-group{
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .header .title-group{
-    padding-right: 5px;
+    padding-right: 50px;
 }
