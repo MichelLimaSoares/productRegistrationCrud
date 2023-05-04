@@ -16,7 +16,9 @@ import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { ProductListComponent } from './components/product-list/components/product-list/product-list.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,7 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
     HomeComponent,
     ProductListComponent,
     ProductCrudComponent,
+    ProductCreateComponent,
     
   ],
   imports: [
@@ -36,7 +39,8 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
