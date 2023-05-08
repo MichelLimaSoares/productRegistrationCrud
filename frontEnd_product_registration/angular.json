@@ -43,7 +43,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": [
+              "@angular/animations"
+           ]
           },
           "configurations": {
             "production": {

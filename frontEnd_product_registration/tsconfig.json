@@ -2,6 +2,18 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "types": [
+      "node", 
+      "jasmine", 
+      "jasmine-ajax", 
+      "@types/core-js", 
+      "@types/node", 
+      "@angular/platform-browser/animations"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./typings"
+    ],
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
