@@ -3,56 +3,56 @@
     {
       "id": 1,
       "price": 15.99,
-      "product": "strogonoff",
+      "name": "strogonoff",
       "quantity in stock": 10,
       "date / time": null
     },
-    {      
+    {
       "id": 2,
       "price": 17.99,
-      "product": "carne seca",
+      "name": "carne seca",
       "description": "",
       "quantity in stock": 10,
       "date / time": null
     },
-    {      
+    {
       "id": 3,
       "price": 15.99,
-      "product": "três queijos",
+      "name": "três queijos",
       "description": "",
       "quantity in stock": 10,
       "date / time": null
     },
-    {      
+    {
       "id": 4,
       "price": 15.99,
-      "product": "bolonhesa",
+      "name": "bolonhesa",
       "description": "",
-      "quantity in stock": 10,      
+      "quantity in stock": 10,
       "date / time": null
+    },
+    {
+      "name": "Prod. test",
+      "price": 120.98,
+      "id": 5
     }
   ],
-
   "usuario": [
     {
       "id": 1,
       "name": "michel"
-      
     },
     {
       "id": 2,
       "name": "leticia"
-      
     },
     {
       "id": 3,
       "name": "soares"
-      
     },
     {
       "id": 4,
       "name": "moura"
-      
     }
   ]
 }

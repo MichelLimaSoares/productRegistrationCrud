@@ -4,7 +4,7 @@
   "description": "new",
   "main": "index.js",
   "scripts": {    
-    "start": "nodemon server.js"
+    "start": "json-server --watch db.json --port3001"    
   },
   "keywords": [],
   "author": "Michel.Soares",
@@ -15,4 +15,5 @@
   "devDependencies": {
     "nodemon": "^2.0.22"
   }
+  
 }
