@@ -21,7 +21,7 @@ export class ProductService {
       verticalPosition: 'top'
     })
   }
-
+  // Função que cria um novo produto, interação com backend
   create(product: Product): Observable<Product>{
     return this.http.post<Product>(this.baseUrl, product)
   }
