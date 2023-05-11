@@ -1,4 +1,17 @@
 form {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
+    
 }
+
+button {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: 15px;    
+    width: 100px;
+    height: 10px;
+    size: 1px;
+}
+
