@@ -1,15 +1,19 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
+
 import { Product } from './product.model';
 import { Observable } from 'rxjs';
+import { dbJsonApiTest } from './../../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
-export class ProductService {
 
-  baseUrl = "http://localhost:3000/Products"
+export class ProductService {
+  
+  // Db.json, recebendo de environment.ts
+  baseUrl = dbJsonApiTest.apiUrl;
 
   constructor(private snackBar: MatSnackBar,
     private http: HttpClient) { }

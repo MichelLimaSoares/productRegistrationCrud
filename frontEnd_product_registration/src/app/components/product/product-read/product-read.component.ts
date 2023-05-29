@@ -12,6 +12,7 @@ export class ProductReadComponent implements OnInit {
 
   // Atributo do componente
   products!: Product[];
+  displayedColumns = ['id', 'name', 'price', 'description']
 
   constructor(private productService: ProductService) {
 

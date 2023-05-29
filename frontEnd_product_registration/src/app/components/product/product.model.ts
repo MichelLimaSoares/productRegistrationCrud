@@ -1,7 +1,7 @@
 
 
 export interface Product{
-    id: number // ? significa opcional
+    id: number 
     name: string
     price?: number | null
     description?: string

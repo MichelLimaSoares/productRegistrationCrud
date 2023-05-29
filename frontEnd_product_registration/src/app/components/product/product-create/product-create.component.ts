@@ -13,7 +13,9 @@ export class ProductCreateComponent implements OnInit {
   product: Product = {
     name: '',
     price: null,
-    id: 0
+    id: 0,
+    description: "",
+    quantity_in_stock: 0
   }
 
   // atributoLegal = "qualquer"

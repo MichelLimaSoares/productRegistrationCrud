@@ -14,3 +14,11 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+export const dbJsonApiTest = {
+
+  production: false,
+  apiUrl: 'http://localhost:3000/Products',
+  apiKey: 'urlDbJson'
+
+};
