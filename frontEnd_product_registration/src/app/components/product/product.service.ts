@@ -15,8 +15,10 @@ export class ProductService {
   // Db.json, recebendo de environment.ts
   baseUrl = dbJsonApiTest.apiUrl;
 
-  constructor(private snackBar: MatSnackBar,
-    private http: HttpClient) { }
+  constructor(
+    private snackBar: MatSnackBar,
+    private http: HttpClient
+  ) { }
 
   showMessage(msg: string): void{
     this.snackBar.open(msg, 'x',{

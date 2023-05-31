@@ -18,7 +18,7 @@ export const environment = {
 export const dbJsonApiTest = {
 
   production: false,
-  apiUrl: 'http://localhost:3000/Products',
+  apiUrl: 'http://localhost:3000/Products/',
   apiKey: 'urlDbJson'
 
 };

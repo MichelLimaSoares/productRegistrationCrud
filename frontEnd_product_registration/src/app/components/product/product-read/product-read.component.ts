@@ -14,15 +14,14 @@ export class ProductReadComponent implements OnInit {
   products!: Product[];
   displayedColumns = ['id', 'name', 'price', 'description', 'action']
 
-  constructor(private productService: ProductService) {
-
-  }
+  constructor(
+    private productService: ProductService
+    ) {  }
 
   // Metodo chamado quando o componente é inicializado
   ngOnInit(): void {
     this.productService.read().subscribe(products => {
       this.products = products
-      console.log(products)
     })
   }
 
