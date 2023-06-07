@@ -2,7 +2,7 @@
   "Products": [
     {
       "id": 1,
-      "price": 15.99,
+      "price": "16.99",
       "name": "strogonoff",
       "description": "Frango, champion e batata palha",
       "quantity_in_stock": 10,
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "price": 15.99,
+      "price": "16.99",
       "name": "três queijos",
       "description": "Muçarela, Catupiry e cheddar",
       "quantity_in_stock": 10,
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "price": 15.99,
+      "price": "16.99",
       "name": "bolonhesa",
       "description": "Carne moida, molho de tomate e muçarela ralada",
       "quantity_in_stock": 10,

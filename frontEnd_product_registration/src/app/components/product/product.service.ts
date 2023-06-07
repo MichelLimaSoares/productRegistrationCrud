@@ -27,23 +27,33 @@ export class ProductService {
       verticalPosition: 'top'
     })
   }
+
   // Função que cria um novo produto, interação com backend
   create(product: Product): Observable<Product>{
     return this.http.post<Product>(this.baseUrl, product)
   }
 
+  // Função que faz a leitura dos produtos
   read(): Observable<Product[]> {
     return this.http.get<Product[]> (this.baseUrl)
   }
 
+  // Função que lê um produto por ID
   readById(id: string): Observable<Product> {
     const url = `${this.baseUrl}/${id}`
     return this.http.get<Product>(url)
   }
 
+  // Função para atualizar o produto por ID
   update(product: Product): Observable<Product> {
     const url = `${this.baseUrl}/${product.id}`
     return this.http.put<Product>(url, product)
+  }
+
+  // função que deleta o produto por ID
+  delete(id: string): Observable<Product> {
+    const url = `${this.baseUrl}/${id}`
+    return this.http.delete<Product>(url)
   }
 
 }
