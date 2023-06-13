@@ -36,19 +36,39 @@
   "usuario": [
     {
       "id": 1,
-      "name": "michel"
+      "name": "michel",
+      "senha": "",
+      "email": "",
+      "data_criacao": "",
+      "ultimo_login": "",
+      "conta_ativa": ""
     },
     {
       "id": 2,
-      "name": "leticia"
+      "name": "leticia",
+      "senha": "",
+      "email": "",
+      "data_criacao": "",
+      "ultimo_login": "",
+      "conta_ativa": ""
     },
     {
       "id": 3,
-      "name": "soares"
+      "name": "soares",
+      "senha": "",
+      "email": "",
+      "data_criacao": "",
+      "ultimo_login": "",
+      "conta_ativa": ""
     },
     {
       "id": 4,
-      "name": "moura"
+      "name": "moura",
+      "senha": "",
+      "email": "",
+      "data_criacao": "",
+      "ultimo_login": "",
+      "conta_ativa": ""
     }
   ]
 }
