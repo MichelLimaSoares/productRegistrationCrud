@@ -27,8 +27,18 @@ Here are some screenshots of the application:
 ![Product List](/screenshots/home-crud.png)
 *Screenshot 1: home page.*
 
+![Product Details](/screenshots/produtos-crud.png)
+*Screenshot 2: page with all products*
+
+![Product Details](/screenshots/excluir-produto-crud.png)
+*Screenshot 2: delete product page*
+
 ![Product Details](/screenshots/alterar-produto-crud.png)
 *Screenshot 2: change a selected product page*
+
+![Product Details](/screenshots/novo-produto-crud.png)
+*Screenshot 2: page to create a new product*
+
 
 ## Technologies Used
 
