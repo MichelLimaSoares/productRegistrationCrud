@@ -1,27 +1,46 @@
-# ProductRegistration
+# Product Registration
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+This project is a simple CRUD application built with Angular. It allows users to register and manage products. 
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To run the application locally, follow these steps:
 
-## Code scaffolding
+1. Make sure you have [Node.js](https://nodejs.org) installed on your machine.
+2. Clone this repository to your local machine.
+3. Open a terminal or command prompt and navigate to the project's directory.
+4. Run the command `npm install` to install the project dependencies.
+5. After the installation is complete, run `ng serve` for a development server.
+6. Open your browser and navigate to `http://localhost:4200/`. The application will automatically reload if you make any changes to the source files.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+- Register new products with their details, such as name, description, and price.
+- Update existing product information.
+- Delete products from the list.
+- View a list of all registered products.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Screenshots
 
-## Running unit tests
+Here are some screenshots of the application:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Product List](/screenshots/home-crud.png)
+*Screenshot 1: home page.*
 
-## Running end-to-end tests
+![Product Details](/screenshots/alterar-produto-crud.png)
+*Screenshot 2: change a selected product page*
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Technologies Used
 
-## Further help
+- Angular
+- HTML
+- CSS
+- TypeScript
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contributing
+
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Any contributions are welcome!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
