@@ -31,13 +31,13 @@ Here are some screenshots of the application:
 *Screenshot 2: page with all products*
 
 ![Product Details](/screenshots/excluir-produto-crud.png)
-*Screenshot 2: delete product page*
+*Screenshot 3: delete product page*
 
 ![Product Details](/screenshots/alterar-produto-crud.png)
-*Screenshot 2: change a selected product page*
+*Screenshot 4: change a selected product page*
 
 ![Product Details](/screenshots/novo-produto-crud.png)
-*Screenshot 2: page to create a new product*
+*Screenshot 5: page to create a new product*
 
 
 ## Technologies Used
@@ -46,6 +46,15 @@ Here are some screenshots of the application:
 - HTML
 - CSS
 - TypeScript
+
+## DataBase
+
+- Json
+
+This project uses a JSON database for data storage. The `database.json` file contains information about registered products. The JSON file format follows the structure of:
+
+![db.json Details](/screenshots/db.json-crud.png)
+*Screenshot 1: page db.json for testing *
 
 ## Contributing
 
