@@ -1,6 +1,7 @@
 .header{
     display: flex;
     align-items: center;
+    height: 110px;
 }
 
 .header a{
@@ -8,21 +9,20 @@
     align-items: center;
     text-decoration: none;
 }
-
 .header .logo{
-    max-height: 50px;
     text-align: justify;
-    align-items: center;
+    align-items: center;    
+    width: 150px;
+    max-width: 2000px;
+    max-height: 100px;
     padding-top: 5px;
 }
 .header .logo:hover{
     opacity: 0.6;
 }
-
 .header .title-group{
-    padding-left: 25px;
+    padding-left: 30px;
 }
-
 .header .title-group{
     padding-right: 5px;
 }

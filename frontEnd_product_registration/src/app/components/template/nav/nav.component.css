@@ -1,14 +1,14 @@
 .sidenav{
     background-color: #3c4ba3;
-    width: 190px;
+    width: 180px;
 }
 .sidenav a{
-    color: #FFF;
+    display: inline-block;
+    color: #FFF;    
     padding-left: 10px;
     width: 190px;
     text-align: justify;
     cursor: pointer;
-    display: inline-block;
     height: auto;
     line-height: 1.4em;       
 }
@@ -17,17 +17,20 @@
     transform: scale(1.1);
 }
 .sidenav i{
+    display: inline-block;
     padding-right: 2px;
+    color: #FFF;
     border: 2px solid #FFF; 
     margin: auto;
-    display: inline-block;
     height: auto;
     line-height: 1.2em; 
     vertical-align: sub;  
     height: auto; 
 }
+.mat-nav-list a{
+    color: #FFF;
+}
 .content {
-    padding: 16px;
-    background-color: #FFF;
-    height: auto;   
+    padding: 18px;
+    background-color: #FFF;  
 }
