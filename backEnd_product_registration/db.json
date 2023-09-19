@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "price": 17.99,
+      "price": "17.99",
       "name": "carne seca",
       "description": "Carne seca, cebola e muçarela",
       "quantity_in_stock": 10,
@@ -31,6 +31,13 @@
       "description": "Carne moida, molho de tomate e muçarela ralada",
       "quantity_in_stock": 10,
       "dateTime": null
+    },
+    {
+      "name": "Quatro Queijos",
+      "price": "19.90",
+      "id": 5,
+      "description": "Muçarela, Requeijão, Cheddar e Parmesão",
+      "quantity_in_stock": 0
     }
   ],
   "usuario": [
