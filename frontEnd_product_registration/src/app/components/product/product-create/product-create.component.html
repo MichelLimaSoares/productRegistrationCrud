@@ -4,7 +4,7 @@
         Novo Produto
     </mat-card-title>
 
-    <form>
+    <form class="create">
         <mat-form-field>
             <input matInput placeholder="Nome" 
                 [(ngModel)]="product.name" name="name">
@@ -21,14 +21,15 @@
             <input matInput placeholder="Quantidade em Estoque"
                 [(ngModel)]="product.quantity_in_stock" number="quantity_in_stock">
         </mat-form-field>
-    </form>          
-
-    <button mat-raised-button (click)="createProduct()" color="primary">
-        Salvar
-    </button>
-    <button mat-raised-button (click)="cancel()">
-        Cancelar
-    </button>
+    </form>        
+    <form class="actions-create">
+        <button mat-raised-button (click)="createProduct()" color="primary">
+            Salvar
+        </button>
+        <button mat-raised-button (click)="cancel()">
+            Cancelar
+        </button>
+    </form>
     
 </mat-card>
 

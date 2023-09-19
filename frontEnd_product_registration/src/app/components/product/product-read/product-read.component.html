@@ -35,6 +35,12 @@
         <td mat-cell *matCellDef="let row">{{ row.description }}</td>
       </ng-container>
 
+      <!-- Quantidade de Estoque Column -->
+      <ng-container matColumnDef="Quantidade">
+        <th mat-header-cell *matHeaderCellDef>Qtd. Estoque</th>
+        <td mat-cell *matCellDef="let row">{{ row.quantity_in_stock }}</td>
+      </ng-container>
+
       <!-- Action Column -->
       <ng-container matColumnDef="action">
         <th mat-header-cell *matHeaderCellDef>Ações</th>
@@ -55,7 +61,6 @@
       <!-- Estrutura da tabela -->
       <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
       <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-    </table>
-  
+    </table>  
     
   </div>

@@ -2,15 +2,15 @@
   "Products": [
     {
       "id": 1,
-      "price": "16.99",
+      "price": "17.99",
       "name": "strogonoff",
       "description": "Frango, champion e batata palha",
       "quantity_in_stock": 10,
-      "date_/_time": null
+      "dateTime": null
     },
     {
       "id": 2,
-      "price": "17.99",
+      "price": "18.99",
       "name": "carne seca",
       "description": "Carne seca, cebola e muçarela",
       "quantity_in_stock": 10,
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "price": "16.99",
+      "price": "17.99",
       "name": "três queijos",
       "description": "Muçarela, Catupiry e cheddar",
       "quantity_in_stock": 10,
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "price": "16.99",
+      "price": "17.99",
       "name": "bolonhesa",
       "description": "Carne moida, molho de tomate e muçarela ralada",
       "quantity_in_stock": 10,
@@ -37,7 +37,7 @@
       "price": "19.90",
       "id": 5,
       "description": "Muçarela, Requeijão, Cheddar e Parmesão",
-      "quantity_in_stock": 0
+      "quantity_in_stock": 8
     }
   ],
   "usuario": [

@@ -1,6 +1,6 @@
 <mat-card>
 
-    <mat-card-title>
+    <mat-card-title class="card-update">
         Alterar Produto
     </mat-card-title>
 
@@ -17,13 +17,18 @@
             <input matInput
                 [(ngModel)]="product.description" name="description">
         </mat-form-field>        
+        <mat-form-field>
+            <input matInput
+                [(ngModel)]="product.quantity_in_stock" number="quantity_in_stock">
+        </mat-form-field>        
     </form>          
-
-    <button mat-raised-button (click)="updateProduct()" color="primary">
-        Atualizar
-    </button>
-    <button mat-raised-button (click)="cancel()">
-        Cancelar
-    </button>
+    <form class="update-action">
+        <button mat-raised-button (click)="updateProduct()" color="primary">
+            Atualizar
+        </button>
+        <button mat-raised-button (click)="cancel()">
+            Cancelar
+        </button>
+    </form>
       
 </mat-card>

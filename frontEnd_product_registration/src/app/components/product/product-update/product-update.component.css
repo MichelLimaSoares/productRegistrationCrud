@@ -2,9 +2,16 @@ form {
     display: flex;
     flex-direction: column;
 }
-
+.update-action{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
 button {
     display: flex;
     flex-direction: row;
-    margin: 20px 15px 0px 0px;
+    margin: 2px 2px 4px 0px;
+}
+.card-update{
+    margin: 5px 0px 10px 0px;
 }
