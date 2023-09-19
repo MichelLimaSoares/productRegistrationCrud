@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../product.service';
 import { Router } from '@angular/router';
 import { Product } from '../product.model';
+import { DateTime } from 'luxon';
 
 @Component({
   selector: 'app-product-create',
@@ -15,7 +16,8 @@ export class ProductCreateComponent implements OnInit {
     name: '',
     price: null,
     description: "",
-    quantity_in_stock: 0
+    quantity_in_stock: 0,
+    dateTime: DateTime.now().setZone('America/Sao_Paulo')
   }
 
   // atributoLegal = "qualquer"

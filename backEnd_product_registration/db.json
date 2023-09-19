@@ -37,7 +37,24 @@
       "price": "19.90",
       "id": 5,
       "description": "Muçarela, Requeijão, Cheddar e Parmesão",
-      "quantity_in_stock": 8
+      "quantity_in_stock": 10,
+      "dateTime": null
+    },
+    {
+      "id": 6,
+      "name": "Batata Dog",
+      "price": "15.60",
+      "description": "Salsicha, molho de tomate, milho, batata plha",
+      "quantity_in_stock": 10,
+      "dateTime": null
+    },
+    {
+      "id": 7,
+      "name": "Calabacon",
+      "price": "18.99",
+      "description": "Calabresa, bacon",
+      "quantity_in_stock": 0,
+      "dateTime": "2023-09-19T16:47:20.246-03:00"
     }
   ],
   "usuario": [

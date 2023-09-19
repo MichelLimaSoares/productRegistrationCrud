@@ -6,6 +6,7 @@ import { Product } from './product.model';
 import { Observable } from 'rxjs';
 import { dbJsonApiTest } from './../../../environments/environment';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -55,5 +56,4 @@ export class ProductService {
     const url = `${this.baseUrl}/${id}`
     return this.http.delete<Product>(url)
   }
-
 }

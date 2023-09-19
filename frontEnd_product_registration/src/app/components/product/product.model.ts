@@ -1,4 +1,4 @@
-
+import { DateTime } from 'luxon'
 
 export interface Product{
     id: number 
@@ -6,5 +6,5 @@ export interface Product{
     price?: number | null
     description?: string
     quantity_in_stock?: number
-    dateTime?: Date
+    dateTime: DateTime
 }

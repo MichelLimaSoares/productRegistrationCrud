@@ -6,6 +6,10 @@
 
     <form>
         <mat-form-field>
+            <input matInput
+                [(ngModel)]="product.id" number="id">
+        </mat-form-field>
+        <mat-form-field>
             <input matInput 
                 [(ngModel)]="product.name" name="name">                
         </mat-form-field>
