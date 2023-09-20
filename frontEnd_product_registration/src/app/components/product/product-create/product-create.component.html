@@ -18,18 +18,18 @@
                 [(ngModel)]="product.description" name="description">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Quantidade em Estoque"
+            <input matInput placeholder="Quantidade"
                 [(ngModel)]="product.quantity_in_stock" number="quantity_in_stock">
         </mat-form-field>
     </form>        
-    <form class="actions-create">
+    <div class="actions-create">
         <button mat-raised-button (click)="createProduct()" color="primary">
             Salvar
         </button>
         <button mat-raised-button (click)="cancel()">
             Cancelar
         </button>
-    </form>
+    </div>
     
 </mat-card>
 

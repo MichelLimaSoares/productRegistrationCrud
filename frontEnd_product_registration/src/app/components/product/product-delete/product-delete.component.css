@@ -2,15 +2,17 @@ form {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    
 }
-
 button {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
-    margin-right: 15px;    
+    margin: 2px 2px 15px 0px;        
     width: 100px;
     height: 10px;
     size: 1px;
+}
+.delete-action{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }

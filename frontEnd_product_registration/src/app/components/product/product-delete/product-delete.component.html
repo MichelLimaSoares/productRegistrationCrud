@@ -6,6 +6,10 @@
 
     <form>
         <mat-form-field>
+            <input matInput
+                [value]="product.id" number="id" disabled>
+        </mat-form-field>        
+        <mat-form-field>
             <input matInput 
                 [value]="product.name" name="name" disabled>                
         </mat-form-field>
@@ -15,15 +19,17 @@
         </mat-form-field>
         <mat-form-field>
             <input matInput
-                [value]="product.description" name="description">
+                [value]="product.description" name="description" disabled>
         </mat-form-field>        
-    </form>          
+    </form>  
 
-    <button mat-raised-button (click)="deleteProduct()" color="warn">
-        Excluir
-    </button>
-    <button mat-raised-button (click)="cancel()">
-        Cancelar
-    </button>
-      
+    <div class="delete-action">
+        <button mat-raised-button (click)="deleteProduct()" color="warn">
+            Excluir
+        </button>
+        <button mat-raised-button (click)="cancel()">
+            Cancelar
+        </button>
+    </div>  
+
 </mat-card>
