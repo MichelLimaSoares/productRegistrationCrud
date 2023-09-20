@@ -4,7 +4,7 @@
         Excluir Produto
     </mat-card-title>
 
-    <form>
+    <form *ngIf="product">
         <mat-form-field>
             <input matInput
                 [value]="product.id" number="id" disabled>

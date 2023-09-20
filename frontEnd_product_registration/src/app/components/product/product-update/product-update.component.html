@@ -4,10 +4,10 @@
         Alterar Produto
     </mat-card-title>
 
-    <form>
+    <form *ngIf="product">
         <mat-form-field>
             <input matInput
-                [(ngModel)]="product.id" number="id" disabled="">
+                [(ngModel)]="product.id" name="id" disabled="">
         </mat-form-field>
         <mat-form-field>
             <input matInput 
@@ -23,7 +23,7 @@
         </mat-form-field>        
         <mat-form-field>
             <input matInput
-                [(ngModel)]="product.quantity_in_stock" number="quantity_in_stock">
+                [(ngModel)]="product.quantity_in_stock" name="quantity_in_stock">
         </mat-form-field>        
     </form>          
     <div class="update-action">
