@@ -43,13 +43,16 @@ Here are some screenshots of the application:
 ## Technologies Used
 
 - Angular
+- NodeJs
+- Rxjs
+- TypeScript
 - HTML
 - CSS
-- TypeScript
+- Material
 
 ## DataBase
 
-- Json
+- Json Server
 
 This project uses a JSON database for data storage. The `database.json` file contains information about registered products. The JSON file format follows the structure of:
 
