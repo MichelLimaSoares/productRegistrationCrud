@@ -34,6 +34,10 @@ import { MatSortModule } from '@angular/material/sort';
 import { FormsModule } from '@angular/forms';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
+import { UserCreateComponent } from './components/users/user-create/user-create.component';
+import { UserDeleteComponent } from './components/users/user-delete/user-delete.component';
+import { UserUpdateComponent } from './components/users/user-update/user-update.component';
+import { UserReadComponent } from './components/users/user-read/user-read.component';
 
 
 registerLocaleData(localePt);
@@ -52,6 +56,10 @@ registerLocaleData(localePt);
     ProductRead2Component,
     ProductUpdateComponent,
     ProductDeleteComponent,
+    UserCreateComponent,
+    UserDeleteComponent,
+    UserUpdateComponent,
+    UserReadComponent,
     
   ],
   imports: [
