@@ -2,18 +2,18 @@
   "Products": [
     {
       "id": 1,
-      "price": "17.99",
+      "price": "18.99",
       "name": "strogonoff",
       "description": "Frango, champion e batata palha",
-      "quantity_in_stock": 10,
+      "quantity_in_stock": "20",
       "dateTime": null
     },
     {
       "id": 2,
-      "price": "18.99",
+      "price": "19.99",
       "name": "carne seca",
       "description": "Carne seca, cebola e muçarela",
-      "quantity_in_stock": 10,
+      "quantity_in_stock": "20",
       "dateTime": null
     },
     {
@@ -21,7 +21,7 @@
       "price": "17.99",
       "name": "três queijos",
       "description": "Muçarela, Catupiry e cheddar",
-      "quantity_in_stock": 10,
+      "quantity_in_stock": "30",
       "dateTime": null
     },
     {
@@ -29,7 +29,7 @@
       "price": "17.99",
       "name": "bolonhesa",
       "description": "Carne moida, molho de tomate e muçarela ralada",
-      "quantity_in_stock": 10,
+      "quantity_in_stock": "30",
       "dateTime": null
     },
     {
@@ -37,7 +37,7 @@
       "price": "19.90",
       "id": 5,
       "description": "Muçarela, Requeijão, Cheddar e Parmesão",
-      "quantity_in_stock": 10,
+      "quantity_in_stock": "30",
       "dateTime": null
     },
     {
@@ -45,7 +45,7 @@
       "name": "Batata Dog",
       "price": "15.60",
       "description": "Salsicha, molho de tomate, milho, batata plha",
-      "quantity_in_stock": 10,
+      "quantity_in_stock": "30",
       "dateTime": null
     },
     {
@@ -53,7 +53,7 @@
       "name": "Calabacon",
       "price": "18.99",
       "description": "Calabresa, bacon",
-      "quantity_in_stock": "15",
+      "quantity_in_stock": "35",
       "dateTime": "2023-09-20T20:00:08.983-03:00"
     }
   ],
@@ -70,24 +70,6 @@
     {
       "id": 2,
       "name": "leticia",
-      "senha": "",
-      "email": "",
-      "data_criacao": "",
-      "ultimo_login": "",
-      "conta_ativa": ""
-    },
-    {
-      "id": 3,
-      "name": "soares",
-      "senha": "",
-      "email": "",
-      "data_criacao": "",
-      "ultimo_login": "",
-      "conta_ativa": ""
-    },
-    {
-      "id": 4,
-      "name": "moura",
       "senha": "",
       "email": "",
       "data_criacao": "",
